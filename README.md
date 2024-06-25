@@ -34,3 +34,5 @@ python3 manage.py migrate
 python3 manage.py runserver localhost:8000
 
 Для доступа к панел  администратора перейдите по ссылке http://localhost:8000/admin
+
+Для загрузки данных наберите python3 manage.py loaddata webapp/fixtures/dump.json
